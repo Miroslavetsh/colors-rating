@@ -2,12 +2,11 @@ import StarRating from './components/StarRating'
 
 import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className='App'>
-      <StarRating />
-    </div>
+    <StarRating
+      style={{ backgroundColor: 'lightblue' }}
+      onDoubleClick={(e) => alert('double click')}
+    />
   )
 }
-
-export default App
