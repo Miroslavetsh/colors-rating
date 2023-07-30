@@ -1,6 +1,7 @@
 import React from 'react'
-import ColorList from './ColorList.js'
-import AddColorForm from './AddColorForm'
+
+import ColorList from './components/ColorList'
+import AddColorForm from './components/AddColorForm'
 
 export default function App() {
   return (
